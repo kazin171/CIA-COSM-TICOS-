@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CIA COSMÉTICOS</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; text-align: center; }
+    img { max-width: 100%; height: auto; border-radius: 10px; }
+    .produto { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 600px; margin: auto; }
+    .pix { background: #ffcc00; padding: 10px; margin: 15px 0; border-radius: 5px; font-weight: bold; }
+    form input, form button { padding: 10px; margin: 5px; width: 80%; border-radius: 5px; border: 1px solid #ccc; }
+  </style>
+</head>
+<body>
+  <h1>CIA COSMÉTICOS</h1>
+  <div class="produto">
+    <h2>Caixa de som do Reggae</h2>
+    <img src="produto_reggae_caixa.jpg" alt="Caixa de som do Reggae" />
+    <p>Para você que gosta de escutar um reggae bom e estralante. Melhor material da leste!</p>
+    <div class="pix">
+      Pagamento via Pix<br>
+      <small>Chave Pix:</small><br>
+      5f442960-4b53-4b0a-9397-3f946d0ccb2c
+    </div>
+    <form action="https://formsubmit.co/seu@email.com" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required><br>
+      <input type="email" name="email" placeholder="Seu e-mail" required><br>
+      <input type="hidden" name="_subject" value="Novo pedido - Caixa de som">
+      <button type="submit">Confirmar que paguei</button>
+    </form>
+  </div>
+</body>
+</html>
